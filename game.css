@@ -1,0 +1,66 @@
+body
+{
+	background-image: url("bg3.jpg"); 
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#number1, #number2, #player1, #player2 {
+	width: 500px;
+	border-radius: 30px;
+	height: 60px;
+}
+
+#scoresDiv{
+	background-color: aliceblue;
+	border-radius: 20px;
+	padding:10px;
+	width: 250px;
+	border:aqua;
+	border-style: ridge;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+}
+
+#questionTurn{
+	color: orangered;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+
+}
+
+#AnswerTurn{
+	color:green;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+}
+
+#sendbutton{
+	width: 100px;
+	height: 60px;
+	background-color: blue;
+	color: cornsilk;
+	padding: 3px;
+	border:orange;
+	border-style: ridge;
+	border-width: 3px;
+	box-shadow: orangered;
+	border-radius: 30px;
+	font-size: large;
+
+}
+
+#output{
+	background: white;
+	border-radius: 20px;
+	border-top: 10px solid maroon;
+	padding: 10px;
+	float:none;
+	text-align:left;
+}
+
+	
+
